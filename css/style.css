@@ -875,4 +875,23 @@ a:focus {
   font-weight: bold;
 }
 
+.header_section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #000; /* Adjust to match your design */
+  padding: 10px 0;
+}
+.hero_area {
+  padding-top: 80px; /* Adjust based on header height */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
