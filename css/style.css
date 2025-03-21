@@ -862,7 +862,7 @@ a:focus {
 .guides-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px; /* Adjust spacing */
+  gap: 20px; 
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -901,6 +901,37 @@ html {
   font-size: 250px;
   color: white;
 }
+
+.big-arrow {
+  font-size: 4vw;
+  color: black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.7vw;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-prev {
+  left: 2vw;
+}
+
+.carousel-control-next {
+  right: 2vw;
+}
+
+@media (max-width: 768px) {
+  .big-arrow {
+    font-size: 8vw;
+    padding: 1.2vw;
+  }
+}
+
+
+
 
 
 
